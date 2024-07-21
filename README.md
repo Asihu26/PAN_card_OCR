@@ -38,27 +38,27 @@ Information Extraction:Text is extracted from the preprocessed image using Tesse
 
 LIBRARIES:
 
-   1.json: Used for encoding and decoding JSON data.
+      1.json: Used for encoding and decoding JSON data.
 
-   2.pytesseract: A Python wrapper for Google's Tesseract-OCR Engine.
+      2.pytesseract: A Python wrapper for Google's Tesseract-OCR Engine.
 
-   3.cv2 (OpenCV): A library for image processing and computer vision tasks.
+       3.cv2 (OpenCV): A library for image processing and computer vision tasks.
 
-   4.numpy: A library for numerical computations and handling multi-dimensional arrays.
+       4.numpy: A library for numerical computations and handling multi-dimensional arrays.
 
-   5.sys: Provides access to some variables and functions that interact with the Python interpreter.
+       5.sys: Provides access to some variables and functions that interact with the Python interpreter.
 
-   6.re: Provides regular expression matching operations.
+       6.re: Provides regular expression matching operations.
 
-   7.os: Provides functions for interacting with the operating system.
+       7.os: Provides functions for interacting with the operating system.
 
-   8.PIL (Pillow): A library for opening, manipulating, and saving image files.
+       8.PIL (Pillow): A library for opening, manipulating, and saving image files.
 
-   9.ftfy: Fixes Unicode text with various issues.
+       9.ftfy: Fixes Unicode text with various issues.
 
-   10.pan_read: (Assuming it's a custom module) A module for reading PAN card information.
+       10.pan_read: (Assuming it's a custom module) A module for reading PAN card information.
 
-   11.io: Provides the core tools for working with streams (input and output).
+      11.io: Provides the core tools for working with streams (input and output).
 
 Each of these libraries has a specific purpose and functionality that helps in different aspects of programming and data processing.
 
@@ -93,6 +93,7 @@ The strip() function is used to remove any leading or trailing whitespace from t
 
 
 Notes:
+
      1.Ensure the image is of good quality for better OCR results.
      
      2.Preprocessing steps like noise removal, resizing, or sharpening may improve the OCR accuracy.
