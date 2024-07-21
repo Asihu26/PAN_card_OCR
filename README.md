@@ -94,7 +94,9 @@ The strip() function is used to remove any leading or trailing whitespace from t
 
 Notes:
      1.Ensure the image is of good quality for better OCR results.
+     
      2.Preprocessing steps like noise removal, resizing, or sharpening may improve the OCR accuracy.
+     
      3.Adjust the regex patterns based on the exact text layout on the PAN card.
  
 
